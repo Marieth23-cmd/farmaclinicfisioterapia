@@ -34,7 +34,7 @@ export default function Header() {
         <Link
           href={proposalLink}
           aria-label="Agendar avaliação por email"
-          className="lg:hidden bg-[#1b73a0] hover:bg-[#155a80] text-white px-3 py-2 rounded-full text-xs sm:text-sm font-medium shadow-md transition-colors"
+          className="lg:hidden bg-[#eb9003] hover:bg-[#d47d00] text-white px-3 py-2 rounded-full text-xs sm:text-sm font-medium shadow-md transition-colors"
         >
           Agendar avaliação
         </Link>
