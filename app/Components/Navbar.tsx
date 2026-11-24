@@ -7,11 +7,10 @@ import { FaLinkedinIn } from "react-icons/fa6";
 import Link from "next/link";
 
 export default function Header() {
-  const email = "fisioterapia@farmaclinic.net";
-  const subject = "Solicitação de Proposta";
-  const body = "";
+  const wwp = "9389898808";
+  const body = "Solicitação de Proposta";
 
-  const proposalLink = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  const proposalLink = `https://wa.me/${wwp}?text=${encodeURIComponent(body)}`;
 
   return (
     <header className="fixed top-0 left-0 w-full h-20 bg-white shadow-sm z-50">
@@ -40,7 +39,7 @@ export default function Header() {
         </Link>
 
         {/* Desktop call to action and social links */}
-        <div className="hidden lg:flex items-center gap-8 text-lg text-[#1b73a0]">
+        <div className="hidden lg:flex items-center gap-5 text-lg text-[#1b73a0]">
           <Link
             href={proposalLink}
             aria-label="Solicitar Proposta por Email"

@@ -7,7 +7,7 @@ export default function Contactos() {
 
   return (
     <>
-      <section className="mx-auto max-w-5xl px-4 py-10 sm:px-6 md:px-8 md:py-16">
+      <section id="contactos" className="scroll-mt-20 mx-auto max-w-5xl px-4 py-10 sm:px-6 md:px-8 md:py-16">
         <h1 className="mb-4 font-bold leading-tight text-[#1b73a0] text-2xl sm:text-3xl lg:text-5xl">
           Contactos
         </h1>
@@ -33,13 +33,14 @@ export default function Contactos() {
           </div>
 
          <div className="inline-flex items-center gap-3 rounded-xl bg-[#08799B] px-6 py-3">
-  <FaWhatsapp
-    size={42}
-    className="shrink-0 text-[#44C553]"
-    style={{
-      filter: "drop-shadow(0 0 1.5px white)",
-    }}
-  />
+  <a
+    href={`https://wa.me/${phone}?text=${encodeURIComponent(message)}`}
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Fale connosco pelo WhatsApp"
+  >
+    <FaWhatsapp size={42} className="shrink-0 text-[#25D366]" />
+  </a>
 
   <div className="flex flex-col">
     <p className="text-lg font-bold leading-tight text-white">
@@ -57,6 +58,15 @@ export default function Contactos() {
   </div>
 </div>
         </div>
+      </section>
+
+      <section className="mx-auto max-w-5xl px-4 pb-10 sm:px-6 md:px-8">
+        <h2 className="mb-2 text-xl font-bold text-[#eb9003] sm:text-2xl lg:text-3xl">
+          Horário de funcionamento
+        </h2>
+        <p className="text-base font-normal lg:text-lg">
+          De segunda-feira a sábado, das 8h às 20h.
+        </p>
       </section>
 
       <section className="mx-auto max-w-5xl px-4 pb-10 sm:px-6 md:px-8 md:pb-16">

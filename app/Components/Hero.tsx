@@ -6,9 +6,9 @@ import Link from "next/link"
 
 export default function Hero() {
 
-   const email = "fisioterapia@farmaclinic.net";
-  const subject = "Solicitação de Proposta";
-  const body = "";
+   const wpp = "9389898808";
+
+  const body = "Solicitação de Proposta";
 
 
   return (
@@ -58,8 +58,8 @@ export default function Hero() {
             >
               Conte com um serviço especializado de fisioterapia, focado na sua reabilitação, mobilidade e bem-estar.
             </motion.p>
-            <Link  href={`mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`}
-                  aria-label="Solicitar Proposta por Email"
+            <Link  href={`https://wa.me/${wpp}?text=${encodeURIComponent(body)}`}
+                  aria-label="Solicitar Proposta por WhatsApp"
 
               className="bg-[#1b73a0]  hover:bg-[#165474] text-white rounded-full font-medium transition-colors"
               style={{
@@ -118,8 +118,8 @@ export default function Hero() {
              conte com um serviço especializado de fisioterapia, focado na sua reabilitação ,mobilidade e bem-estar
             </motion.p>
             <Link
-             href={`mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`}
-              aria-label="Solicitar Proposta por Email"
+             href={`https://wa.me/${wpp}?text=${encodeURIComponent(body)}`}
+              aria-label="Solicitar Proposta por WhatsApp"
 
               className="
               bg-[#1b73a0]

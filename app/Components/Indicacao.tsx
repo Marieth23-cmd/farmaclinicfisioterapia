@@ -8,7 +8,7 @@ export default function Contactos() {
   return (
     <div >
 
-        <section className="max-w-5xl mx-auto px-4 sm:px-6 py-10 md:py-16 "
+        <section id="indicacao" className="scroll-mt-20 max-w-5xl mx-auto px-4 sm:px-6 py-10 md:py-16 "
             >
         
               <div className="grid lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-10">
@@ -18,48 +18,38 @@ export default function Contactos() {
                   
         
                   <p className="text-[#eb9003]  mb-2 sm:mb-6 leading-relaxed text-2xl sm:text-3xl lg:text-5xl ">
-                        Para quem 
-                        <span className=" font-bold"> é indicado</span> ?
+                     Para quem
+                     <br />
+                     <span className="font-bold">é indicado?</span>
                    </p>
         
                  
         
                   {/* indicação */}
-                  <div
-                   style={{ fontSize: "clamp(1rem, 1.2vw, 1.125rem)" }}
-                   className="  sm:mt-4 px-3 sm:px-4 py-3 sm:py-4 ">
+                  <div className="sm:mt-4 px-3 sm:px-4 py-3 sm:py-4">
                     
-                    <p  style={{ fontSize: "clamp(1rem, 1.2vw, 1.125rem)" }}
-                     className="flex gap-2 mb-2 sm:mb-3 text-base lg:text-lg text-gray-600">
-                      <FaCheck className="text-[#1b73a0] shrink-0 mt-0.5" />
-                      Utentes em recuparação de lesões
+                    <p className="flex gap-2 mb-2 sm:mb-3 text-base lg:text-lg text-gray-600">
+                      <FaCheck className="mt-1 h-4 w-4 shrink-0 text-[#1b73a0] lg:h-[18px] lg:w-[18px]" />
+                      Utentes em recuperação de lesões
                     </p>
         
-                    <p
-                      style={{ fontSize: "clamp(1rem, 1.2vw, 1.125rem)" }}
-                     className="flex gap-2 mb-2 sm:mb-3 text-base lg:text-lg text-gray-600">
-                      <FaCheck className="text-[#1b73a0] shrink-0 mt-0.5" />
+                    <p className="flex gap-2 mb-2 sm:mb-3 text-base lg:text-lg text-gray-600">
+                      <FaCheck className="mt-1 h-4 w-4 shrink-0 text-[#1b73a0] lg:h-[18px] lg:w-[18px]" />
                       Pós-operatório
                     </p>
         
-                    <p 
-                      style={{ fontSize: "clamp(1rem, 1.2vw, 1.125rem)" }}
-                    className="flex gap-2 mb-2 sm:mb-3 text-base lg:text-lg text-gray-600">
-                      <FaCheck className="text-[#1b73a0] shrink-0 mt-0.5" />
+                    <p className="flex gap-2 mb-2 sm:mb-3 text-base lg:text-lg text-gray-600">
+                      <FaCheck className="mt-1 h-4 w-4 shrink-0 text-[#1b73a0] lg:h-[18px] lg:w-[18px]" />
                       Problemas de mobilidade
                     </p>
         
-                    <p 
-                      style={{ fontSize: "clamp(1rem, 1.2vw, 1.125rem)" }}
-                      className="flex gap-2 text-base lg:text-lg text-gray-600">
-                      <FaCheck className="text-[#1b73a0] shrink-0 mt-0.5" />
+                    <p className="flex gap-2 text-base lg:text-lg text-gray-600">
+                      <FaCheck className="mt-1 h-4 w-4 shrink-0 text-[#1b73a0] lg:h-[18px] lg:w-[18px]" />
                       Dores crónicas 
                     </p>
 
-                     <p 
-                      style={{ fontSize: "clamp(1rem, 1.2vw, 1.125rem)" }}
-                      className="flex gap-2 text-base lg:text-lg text-gray-600">
-                      <FaCheck className="text-[#1b73a0] shrink-0 mt-0.5" />
+                     <p className="flex gap-2 text-base lg:text-lg text-gray-600">
+                      <FaCheck className="mt-1 h-4 w-4 shrink-0 text-[#1b73a0] lg:h-[18px] lg:w-[18px]" />
                       Reabilitação neurológica e respiratória
                     </p>
                   </div>

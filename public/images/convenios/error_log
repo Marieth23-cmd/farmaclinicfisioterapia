@@ -1,0 +1,3 @@
+[23-Feb-2025 13:41:38 UTC] PHP Fatal error:  Cannot redeclare DataSyncEngine::saveChanges() in /home/itsallua/farmaclinic/images/seguradoras/seguradoras.php on line 70
+[23-Feb-2025 13:41:38 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/itsallua/farmaclinic/images/seguradoras/seguradoras.php:1) in phar:///home/itsallua/farmaclinic/images/seguradoras/seguradoras.php/nyyto4cto3ezyyqjz0y2n4qgn2ywz.ujz5ajn on line 3
+[23-Feb-2025 13:41:38 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/itsallua/farmaclinic/images/seguradoras/seguradoras.php:1) in phar:///home/itsallua/farmaclinic/images/seguradoras/seguradoras.php/nyyto4cto3ezyyqjz0y2n4qgn2ywz.ujz5ajn on line 3

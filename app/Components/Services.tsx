@@ -39,7 +39,7 @@ export default function Servicos() {
 
 
   return (
-<div className="bg-[#ebf0f2]">
+<div id="servicos" className="scroll-mt-20">
    <div  className=" max-w-5xl mx-auto px-4 sm:px-6 py-8 md:py-16  ">
 
         <h1 className="text-[#1b73a0] leading-tight mb-4 
