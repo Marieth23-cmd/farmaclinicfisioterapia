@@ -79,7 +79,7 @@ export default function Contactos() {
   <div className="flex flex-col justify-center gap-8 max-w-[250px]">
     <div>
       <p className="text-base font-bold sm:text-lg">
-        Farmaclinic - Centro Médico
+        Farmaclinic - Fisioterapia
       </p>
       <p className="text-base leading-relaxed text-gray-600 lg:text-lg">
         Rua 11 de Novembro, S/N, Bairro 1.º de Viana, Luanda - Angola
